@@ -1,0 +1,20 @@
+body {
+    left: 0;
+}
+
+#anima-div {
+    background-image: url(../images/sprite_asmita.png);
+    width: 500px;
+    height: 276px;
+    animation: anima-sprite 1s steps(20) infinite;
+}
+
+@keyframes anima-sprite {
+    from { 
+    background-position: 0px; 
+}
+    to {
+        background-position: -10000px;
+}
+
+}
