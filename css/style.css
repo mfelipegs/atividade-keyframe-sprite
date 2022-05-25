@@ -1,5 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     left: 0;
+    background-color: #dddddd;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
 }
 
 #anima-div {
@@ -10,6 +25,7 @@ body {
 }
 
 @keyframes anima-sprite {
+    
     from { 
     background-position: 0px; 
 }
